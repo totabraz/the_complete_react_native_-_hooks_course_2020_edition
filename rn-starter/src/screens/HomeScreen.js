@@ -48,6 +48,28 @@ const HomeScreen = ({ navigation }) => {
         }}
         title={"Color Seclector Screen"}
       />
+      <Button
+        style={buttonsStyle}
+        onPress={() => {
+          navigation.navigate("TextInput");
+        }}
+        title={"Text Input Screen"}
+      />
+      <Button
+        style={buttonsStyle}
+        onPress={() => {
+          navigation.navigate("BoxScreen");
+        }}
+        title={"Box Screen"}
+      />
+
+      <Button
+        style={buttonsStyle}
+        onPress={() => {
+          navigation.navigate("MtgCounter");
+        }}
+        title={"Mtg Counter Screen"}
+      />
     </View>
   );
 };
